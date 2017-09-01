@@ -7,21 +7,30 @@
     tools:context="com.example.android.happybirthday.MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:src="@drawable/androidparty"/>
 
     <TextView
         android:id="@+id/happy_birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy birthday, Jacob!" />
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:text="Happy birthday, Ryan!" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
         android:text="From, James!" />
 
 </RelativeLayout>
