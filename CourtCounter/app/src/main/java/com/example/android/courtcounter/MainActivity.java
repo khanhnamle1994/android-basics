@@ -66,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamB);
     }
 
+    public void resetScore(View v) {
+        displayForTeamA(0);
+        displayForTeamB(0);
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+    }
+
     /**
      * Displays the given score for Team A.
      */
