@@ -35,9 +35,11 @@ public class NumbersActivity extends AppCompatActivity {
         int index = 0;
 
         // Keep looping until we've reached the end of the list (which means keep looping
-        // as long as the current index position is less than the length of the list)
+        // as long as the current index position is less than the length of the list).
+        // The index variable keeps track of our current position in the list and
+        // increments by 1 each time the code in the loop is executed.
 
-        while (index < words.size()) {
+        for (int index = 0; index < words.size(); index++) {
             // Create a new TextView
             TextView wordView = new TextView(this);
 
