@@ -1,3 +1,8 @@
+Miwok Sample App
+===================================
+
+This app displays lists of vocabulary words for the user to learn the Miwok language. Used in the Udacity Android for Beginners course.
+
 Birthday Card Sample App
 ===================================
 
