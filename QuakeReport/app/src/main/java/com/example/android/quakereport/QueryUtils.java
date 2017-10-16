@@ -18,8 +18,6 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
-
 /**
  * Helper methods related to requesting and receiving earthquake data from USGS.
  */
