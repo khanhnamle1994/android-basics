@@ -5,10 +5,14 @@ This app displays a list of recent earthquakes in the world from the U.S. Geolog
 
 More info on the USGS Earthquake API available at: https://earthquake.usgs.gov/fdsnws/event/1/
 
+![Quake-Report](QuakeReport.png)
+
 Miwok Sample App
 ===================================
 
 This app displays lists of vocabulary words for the user to learn the Miwok language. Used in the Udacity Android for Beginners course.
+
+![Miwok-App](Miwok.png)
 
 Birthday Card Sample App
 ===================================
@@ -20,10 +24,14 @@ Court Counter Sample App
 
 Keeps track of basketball scores for two teams. Used in the Udacity Android for Beginners course.
 
+![Court-Counter](CourtCounter.png)
+
 Just Java Sample App
 ===================================
 
 This app displays an order form for coffee. Used in the Udacity Android for Beginners course.
+
+![Just-Java](JustJava.png)
 
 Pre-requisites
 --------------
