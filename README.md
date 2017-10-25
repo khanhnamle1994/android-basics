@@ -19,6 +19,8 @@ Birthday Card Sample App
 
 Sample app that displays a birthday card. Used in the Udacity Android for Beginners course.
 
+![Birthday-Card](BirthdayCard.png)
+
 Court Counter Sample App
 ===================================
 
