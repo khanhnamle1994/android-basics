@@ -84,6 +84,8 @@ public class PetProvider extends ContentProvider {
                 // For the PETS code, query the pets table directly with the given
                 // projection, selection, selection arguments, and sort order. The cursor
                 // could contain multiple rows of the pets table.
+                cursor = database.query(PetEntry.TABLE_NAME, projection, selection, selectionArgs,
+                        null, null, sortOrder);
                 break;
             case PET_ID:
                 // For the PET_ID code, extract out the ID from the URI.
@@ -261,6 +263,14 @@ public class PetProvider extends ContentProvider {
      */
     @Override
     public String getType(Uri uri) {
-        return null;
+        final int match = sUriMatcher.match(uri);
+        switch (match) {
+            case PETS:
+                return PetEntry.CONTENT_LIST_TYPE;
+            case PET_ID:
+                return PetEntry.CONTENT_ITEM_TYPE;
+            default:
+                throw new IllegalStateException("Unknown URI " + uri + " with match " + match);
+        }
     }
 }
